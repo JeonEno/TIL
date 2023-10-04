@@ -10,6 +10,16 @@
     - `.vs` : visual studio로 프로젝트를 열 시 자동생성되는 폴더
 - 그래서 Staging area라는 영역을 따로 두고, 커밋에 포함시킬 코드(파일)만 스테이징 영역에 추가하게한 다음, 커밋을 만든다
   - staging 영역에 파일을 추가할 때 쓰는 명령어: 'git add 파일명'
+### gitignore파일
+- 루트 경로에 있는`.gitignore`파일은 버전관리 하지 않을 파일의 목록을 관리하는 용도로 쓰인다.
+  - 예시: https://github.com/JeonEno/GameDev/blob/main/.gitignore
+- 사용하는 운영체제, 에디터, 프로그래밍 언어, SDK, 라이브러리 등의 종류에 따라 사람이 의도하지 않은 파일이 생성되는데, 이런 파일들은 버전관리 대상이 아니므로 `.gitignore`파일에서 관리한다.
+  - gitignore생성 웹사이트
+    - 구글에서 'gitignore generator' 검색
+      - https://www.toptal.com/developers/gitignore
+  - VSCode 익스텐션
+    - gitignore by CodeZombie
+
 ## 2023-09-27
 - commit이란? 
   - git의 기본 단위로, 논리적 변경이 있을 때 만듦 (사진찍기와 유사)
